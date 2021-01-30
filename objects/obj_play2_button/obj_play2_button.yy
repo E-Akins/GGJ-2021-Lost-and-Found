@@ -4,7 +4,7 @@
     "path": "sprites/spr_play2_button/spr_play2_button.yy",
   },
   "solid": false,
-  "visible": true,
+  "visible": false,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,

@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"c6aebee8-4743-4ff9-8c79-5d50a63fb348","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Space",
+    "path": "folders/Sprites/Backgrounds/Space.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_space_bg",

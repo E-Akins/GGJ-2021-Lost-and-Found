@@ -42,8 +42,8 @@
     "PhysicsWorldPixToMetres": 0.1,
   },
   "parent": {
-    "name": "Rooms",
-    "path": "folders/Rooms.yy",
+    "name": "Plays",
+    "path": "folders/Rooms/Plays.yy",
   },
   "resourceVersion": "1.0",
   "name": "rm_western_play",

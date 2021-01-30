@@ -15,8 +15,4 @@ else
 	a = a - .01
 }
 
-if (a <= 0 && fade == true)
-{
-	instance_destroy()	
-	show_debug_message(string(window_get_width()) + " " + string(window_get_height()))
-}
+if (a <= 0 && fade == true) { instance_destroy() }

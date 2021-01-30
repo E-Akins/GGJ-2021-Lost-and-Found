@@ -4,7 +4,7 @@
 
 switch room
 {
-	case rm_main_menu:
+	case rm_title:
 	{
 		audio_stop_all()
 		if (!audio_is_playing(thm_title))
@@ -12,7 +12,7 @@ switch room
 		break
 	}
 	
-	case rm_space_play:
+	case rm_space_scene_1:
 	{
 		audio_stop_all()
 		if (!audio_is_playing(thm_space))

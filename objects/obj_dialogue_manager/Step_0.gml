@@ -12,8 +12,39 @@ if (room != rm_main_menu)
 if (display)
 {
 	if (mouse_check_button_pressed(mb_left) && !instance_exists(obj_prop1))
-	{
-		ds_grid_read(global.line, ini_read_string("Scene_1",ds_grid_get(global.line,read,8),0))	
+	{		
+		switch ds_grid_get(global.line,read,8)
+		{
+			case "Exit1":
+			{
+				inst = instance_create_depth(0,0,-1,obj_fade)
+				inst.destination = rm_space_ending_1
+				break	
+			}
+			
+			case "Exit2":
+			{
+				inst = instance_create_depth(0,0,-1,obj_fade)
+				inst.destination = rm_space_ending_1
+				break					
+			}
+			
+			case "Exit3":
+			{
+				inst = instance_create_depth(0,0,-1,obj_fade)
+				inst.destination = rm_space_ending_3
+				break	
+			}
+			
+			case "Exit4":
+			{
+				inst = instance_create_depth(0,0,-1,obj_fade)
+				inst.destination = rm_space_ending_4
+				break					
+			}			
+		}
+		
+		ds_grid_read(global.line, ini_read_string("Scene_1",ds_grid_get(global.line,read,8),0))
 		read = 0
 	}
 	
@@ -27,3 +58,5 @@ if (display)
 		}
 	}
 }
+
+if (room == rm_main_menu) { instance_destroy() }

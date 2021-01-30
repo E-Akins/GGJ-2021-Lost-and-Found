@@ -42,8 +42,8 @@
     "PhysicsWorldPixToMetres": 0.1,
   },
   "parent": {
-    "name": "Rooms",
-    "path": "folders/Rooms.yy",
+    "name": "Medieval",
+    "path": "folders/Rooms/Plays/Medieval.yy",
   },
   "resourceVersion": "1.0",
   "name": "rm_medieval_play",

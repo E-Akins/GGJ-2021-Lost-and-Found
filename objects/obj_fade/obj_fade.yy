@@ -25,8 +25,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Transitions",
+    "path": "folders/Objects/Transitions.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_fade",

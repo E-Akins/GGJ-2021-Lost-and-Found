@@ -3,4 +3,4 @@
 
 fade = false
 a = 0
-destination = rm_title
+destination = rm_intro

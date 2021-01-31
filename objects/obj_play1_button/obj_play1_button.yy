@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_play1_button",
-    "path": "sprites/spr_play1_button/spr_play1_button.yy",
+    "name": "spr_play_button",
+    "path": "sprites/spr_play_button/spr_play_button.yy",
   },
   "solid": false,
   "visible": false,
@@ -30,8 +30,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Start Menu",
-    "path": "folders/Objects/Start Menu.yy",
+    "name": "Menus",
+    "path": "folders/Objects/Menus.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_play1_button",

@@ -11,7 +11,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "thm_title_loop.wav",
-  "duration": 95.33981,
+  "duration": 95.37106,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

@@ -5,6 +5,10 @@
 //#macro view_w camera_get_view_width(view_camera[0])
 //#macro view_h camera_get_view_height(view_camera[0])
 
+global.music = 10
+global.sfx = 10
+global.voices = 10
+
 aspect_ratio = display_get_width()/display_get_height();
 
 view_height = 180;

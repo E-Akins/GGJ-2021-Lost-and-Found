@@ -10,8 +10,8 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "thm_play_finish.mp3",
-  "duration": 15.8479061,
+  "soundFile": "thm_play_finish.wav",
+  "duration": 4.643396,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

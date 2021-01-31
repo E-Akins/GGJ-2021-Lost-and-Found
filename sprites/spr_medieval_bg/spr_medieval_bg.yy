@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"e0e03330-53fa-404e-825d-be30e74a88ff","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Backgrounds",
-    "path": "folders/Sprites/Backgrounds.yy",
+    "name": "Medieval",
+    "path": "folders/Sprites/Backgrounds/Medieval.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_medieval_bg",

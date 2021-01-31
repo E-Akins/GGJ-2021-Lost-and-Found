@@ -4,5 +4,5 @@
 if (!instance_exists(obj_fade))
 {
 	inst = instance_create_layer(0,0,"Instances",obj_fade)
-	inst.destination = rm_medieval_play
+	inst.destination = rm_medieval_scene_2
 }

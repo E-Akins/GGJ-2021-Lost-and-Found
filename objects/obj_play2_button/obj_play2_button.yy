@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_play2_button",
-    "path": "sprites/spr_play2_button/spr_play2_button.yy",
+    "name": "spr_play_button",
+    "path": "sprites/spr_play_button/spr_play_button.yy",
   },
   "solid": false,
   "visible": false,
@@ -22,12 +22,16 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":4,"eventType":6,"collisionObjectId":null,"parent":{"name":"obj_play2_button","path":"objects/obj_play2_button/obj_play2_button.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_play2_button","path":"objects/obj_play2_button/obj_play2_button.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":11,"eventType":6,"collisionObjectId":null,"parent":{"name":"obj_play2_button","path":"objects/obj_play2_button/obj_play2_button.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":10,"eventType":6,"collisionObjectId":null,"parent":{"name":"obj_play2_button","path":"objects/obj_play2_button/obj_play2_button.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"obj_play2_button","path":"objects/obj_play2_button/obj_play2_button.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Start Menu",
-    "path": "folders/Objects/Start Menu.yy",
+    "name": "Menus",
+    "path": "folders/Objects/Menus.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_play2_button",

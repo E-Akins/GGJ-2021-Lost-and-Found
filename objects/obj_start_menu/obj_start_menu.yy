@@ -23,13 +23,12 @@
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_start_menu","path":"objects/obj_start_menu/obj_start_menu.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"obj_start_menu","path":"objects/obj_start_menu/obj_start_menu.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"parent":{"name":"obj_start_menu","path":"objects/obj_start_menu/obj_start_menu.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Start Menu",
-    "path": "folders/Objects/Start Menu.yy",
+    "name": "Menus",
+    "path": "folders/Objects/Menus.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_start_menu",

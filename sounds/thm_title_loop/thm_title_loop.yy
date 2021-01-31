@@ -11,10 +11,10 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "thm_title_loop.wav",
-  "duration": 95.37106,
+  "duration": 95.0599,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "Theme",
+    "path": "folders/Sounds/Theme.yy",
   },
   "resourceVersion": "1.0",
   "name": "thm_title_loop",

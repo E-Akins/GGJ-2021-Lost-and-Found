@@ -13,8 +13,8 @@
   "soundFile": "thm_celebration.wav",
   "duration": 26.0719585,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "Theme",
+    "path": "folders/Sounds/Theme.yy",
   },
   "resourceVersion": "1.0",
   "name": "thm_celebration",

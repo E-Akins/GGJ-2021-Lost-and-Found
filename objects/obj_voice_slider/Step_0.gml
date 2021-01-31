@@ -69,3 +69,7 @@ switch level
 		break	
 	}	
 }
+
+// Add switch to play sound depending on bar adjusted
+global.voices = level
+audio_group_set_gain(audiogroup_default,global.voices/10,0)

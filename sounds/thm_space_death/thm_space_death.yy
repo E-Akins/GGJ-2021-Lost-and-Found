@@ -13,8 +13,8 @@
   "soundFile": "thm_space_death.wav",
   "duration": 6.728208,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "Theme",
+    "path": "folders/Sounds/Theme.yy",
   },
   "resourceVersion": "1.0",
   "name": "thm_space_death",

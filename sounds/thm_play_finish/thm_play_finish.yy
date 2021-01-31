@@ -13,8 +13,8 @@
   "soundFile": "thm_play_finish.wav",
   "duration": 4.643396,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "Theme",
+    "path": "folders/Sounds/Theme.yy",
   },
   "resourceVersion": "1.0",
   "name": "thm_play_finish",

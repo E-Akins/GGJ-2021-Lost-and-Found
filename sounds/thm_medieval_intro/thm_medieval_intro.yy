@@ -11,10 +11,10 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "thm_medieval_intro.wav",
-  "duration": 47.755,
+  "duration": 47.5808525,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "Theme",
+    "path": "folders/Sounds/Theme.yy",
   },
   "resourceVersion": "1.0",
   "name": "thm_medieval_intro",

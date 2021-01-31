@@ -13,8 +13,8 @@
   "soundFile": "thm_banana_allergies.wav",
   "duration": 11.1567917,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "Theme",
+    "path": "folders/Sounds/Theme.yy",
   },
   "resourceVersion": "1.0",
   "name": "thm_banana_allergies",

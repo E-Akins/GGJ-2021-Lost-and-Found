@@ -69,3 +69,7 @@ switch level
 		break	
 	}	
 }
+
+// Add switch to play sound depending on bar adjusted
+global.sfx = level
+audio_group_set_gain(audiogroup_sfx,global.sfx/10,0)

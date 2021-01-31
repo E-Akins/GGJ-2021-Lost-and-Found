@@ -1,7 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-
 switch room
 {
 	case rm_title:
@@ -19,7 +18,13 @@ switch room
 		if (!audio_is_playing(thm_space_intro))
 			audio_play_sound(thm_space_intro,1,true)		
 		break	
-	}
+	}	
+	
+	case rm_space_scene_2:
+	{
+		audio_play_sound(sfx_pewpew,1,false)		
+		break	
+	}	
 	
 	case rm_space_scene_3:
 	{
@@ -28,6 +33,14 @@ switch room
 			audio_play_sound(thm_space_death,1,false)		
 		break	
 	}	
+	
+	case rm_space_scene_8:
+	{
+		audio_stop_all()
+		if (!audio_is_playing(thm_space_death))
+			audio_play_sound(thm_space_death,1,false)		
+		break	
+	}		
 	
 	case rm_space_scene_13:
 	{
@@ -40,14 +53,16 @@ switch room
 	case rm_space_scene_18:
 	{
 		audio_stop_all()
+		spaceloop = true
 		if (!audio_is_playing(thm_space_friend))
-			audio_play_sound(thm_space_friend,1,true)		
+			audio_play_sound(thm_space_friend,1,false)		
 		break		
 	}
 	
 	case rm_space_ending_1:
 	{
 		audio_stop_all()
+		spaceloop = false
 		if (!audio_is_playing(thm_play_finish))
 			audio_play_sound(thm_play_finish,1,false)		
 		break				
@@ -56,6 +71,7 @@ switch room
 	case rm_space_ending_2:
 	{
 		audio_stop_all()
+		spaceloop = false
 		if (!audio_is_playing(thm_play_finish))
 			audio_play_sound(thm_play_finish,1,false)		
 		break				
@@ -64,6 +80,7 @@ switch room
 	case rm_space_ending_3:
 	{
 		audio_stop_all()
+		spaceloop = false
 		if (!audio_is_playing(thm_play_finish))
 			audio_play_sound(thm_play_finish,1,false)		
 		break				
@@ -72,6 +89,7 @@ switch room
 	case rm_space_ending_4:
 	{
 		audio_stop_all()
+		spaceloop = false
 		if (!audio_is_playing(thm_play_finish))
 			audio_play_sound(thm_play_finish,1,false)		
 		break				
@@ -80,6 +98,7 @@ switch room
 	case rm_medieval_ending_1:
 	{
 		audio_stop_all()
+		medloop = false
 		if (!audio_is_playing(thm_play_finish))
 			audio_play_sound(thm_play_finish,1,false)		
 		break				
@@ -88,6 +107,7 @@ switch room
 	case rm_medieval_ending_2:
 	{
 		audio_stop_all()
+		medloop = false
 		if (!audio_is_playing(thm_play_finish))
 			audio_play_sound(thm_play_finish,1,false)		
 		break				
@@ -96,6 +116,7 @@ switch room
 	case rm_medieval_ending_3:
 	{
 		audio_stop_all()
+		medloop = false
 		if (!audio_is_playing(thm_play_finish))
 			audio_play_sound(thm_play_finish,1,false)		
 		break				
@@ -104,6 +125,7 @@ switch room
 	case rm_medieval_ending_4:
 	{
 		audio_stop_all()
+		medloop = false
 		if (!audio_is_playing(thm_play_finish))
 			audio_play_sound(thm_play_finish,1,false)		
 		break				
@@ -118,7 +140,7 @@ switch room
 		break	
 	}	
 	
-	case rm_medieval_scene_1:
+	case rm_medieval_scene_13:
 	{
 		audio_stop_all()
 		medloop = false

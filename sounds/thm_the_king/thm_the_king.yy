@@ -13,8 +13,8 @@
   "soundFile": "thm_the_king.wav",
   "duration": 28.91125,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "Theme",
+    "path": "folders/Sounds/Theme.yy",
   },
   "resourceVersion": "1.0",
   "name": "thm_the_king",

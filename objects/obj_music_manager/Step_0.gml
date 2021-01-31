@@ -26,3 +26,11 @@ if (medloop)
 		audio_sound_set_track_position(snd,7)
 	}
 	
+if (spaceloop)
+	if (!audio_is_playing(thm_space_friend))
+	{
+		audio_stop_all()
+		snd = audio_play_sound(thm_space_friend,1,false)
+		audio_sound_set_track_position(snd,14.5)
+	}
+	
